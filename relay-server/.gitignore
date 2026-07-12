@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.env
+credentials/firebase-service-account.json
+.antigravity-tokens.json

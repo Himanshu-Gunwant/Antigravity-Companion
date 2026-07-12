@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "109188016768",
+    "project_id": "antigravity-companion",
+    "storage_bucket": "antigravity-companion.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109188016768:android:9fc21b3bb4edce57a99465",
+        "android_client_info": {
+          "package_name": "com.example.mobile_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdIu0z-aePSs4Ij2vd6B5DLop1_hWp1vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "antigravity-relay-server",
+  "version": "1.0.0",
+  "description": "Relay server for Antigravity Mobile Companion",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "setup": "tsx src/setup.ts"
+  },
+  "dependencies": {
+    "@fastify/websocket": "^11.0.0",
+    "async-mutex": "^0.5.0",
+    "bcrypt": "^5.1.1",
+    "chokidar": "^4.0.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "firebase-admin": "^14.1.0",
+    "pino": "^9.4.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^20.16.5",
+    "pino-pretty": "^11.2.2",
+    "tsx": "^4.19.1",
+    "typescript": "^5.5.4"
+  }
+}
